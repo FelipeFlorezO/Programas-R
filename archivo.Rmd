@@ -1,0 +1,23 @@
+---
+title: "Economia Naranja"
+author: "Felipe Florez"
+date: "2023-02-19"
+output: html_document
+---
+```{r}
+orangeec <- read.csv("/home/andres/Descargas//orangeec.csv")
+data(orangeec)
+summary(orangeec)
+```
+Parece que hay correlación entre aporte de economía naranja al PIB y la tasa de desempleo
+```{r}
+pairs(orangeec[,6:10])
+```
+```{r}
+library(ggplot2)
+```
+```{r}
+library(dplyr)
+```
+
+

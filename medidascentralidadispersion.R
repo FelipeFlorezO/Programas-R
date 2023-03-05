@@ -1,0 +1,6 @@
+productivity_2<-c(60, 58, 66, 59, 58)
+mean(productivity_2)
+median(productivity_2)
+range(productivity_2)
+sd(productivity_2)
+var(productivity_2)
